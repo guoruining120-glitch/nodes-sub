@@ -1,0 +1,32 @@
+proxies:
+  - name: "AWS-新加坡"
+    type: vless
+    server: 52.220.172.184
+    port: 443
+    uuid: 0244cc4e-8cb2-48d8-a27f-7f1c615fd491
+    network: tcp
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    servername: www.amazon.com
+    reality-opts:
+      public-key: Zn30-4AsCqdGysgE3TsxzOA9ZpEqKbjNc_ING7uMjmA
+      short-id: 9fd20d00
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+
+  - name: "Hysteria2-新加坡"
+    type: hysteria2
+    server: 52.76.14.15
+    port: 8443
+    password: GCTdedRS2kNM51FH
+    sni: www.amazon.com
+    skip-cert-verify: true
+
+  - name: "Hysteria2-台湾"
+    type: hysteria2
+    server: 43.213.173.48
+    port: 8443
+    password: MPDpqQGTNNkPKKd
+    sni: www.amazon.com
+    skip-cert-verify: true
