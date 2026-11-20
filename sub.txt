@@ -1,0 +1,6 @@
+vless://0244cc4e-8cb2-48d8-a27f-7f1c615fd491@52.220.172.184:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amazon.com&fp=chrome&pbk=Zn30-4AsCqdGysgE3TsxzOA9ZpEqKbjNc_ING7uMjmA&sid=9fd20d00&type=tcp#AWS-新加坡
+AWS-新加坡 = VLESS,52.220.172.184,443,"0244cc4e-8cb2-48d8-a27f-7f1c615fd491",transport=tcp,flow=xtls-rprx-vision,public-key="Zn30-4AsCqdGysgE3TsxzOA9ZpEqKbjNc_ING7uMjmA",short-id=9fd20d00,udp=true,over-tls=true,sni=www.amazon.com,skip-cert-verify=true
+hysteria2://GCTdedRS2kNM51FH@52.76.14.15:8443?sni=www.amazon.com&insecure=1#Hysteria2-新加坡
+Hysteria2-新加坡 = hysteria2, 52.76.14.15, 8443, password=GCTdedRS2kNM51FH, sni=www.amazon.com, skip-cert-verify=true
+hysteria2://MPDpqQGTNNkPKKd@43.213.173.48:8443?sni=www.amazon.com&insecure=1#Hysteria2-台湾
+Hysteria2-台湾 = hysteria2, 43.213.173.48, 8443, password=MPDpqQGTNNkPKKd, sni=www.amazon.com, skip-cert-verify=true
