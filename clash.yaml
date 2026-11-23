@@ -1,7 +1,7 @@
 proxies:
   - name: "AWS-新加坡"
     type: vless
-    server: 52.220.172.184
+    server: 52.74.169.186
     port: 443
     uuid: 0244cc4e-8cb2-48d8-a27f-7f1c615fd491
     network: tcp
@@ -17,7 +17,7 @@ proxies:
 
   - name: "Hysteria2-新加坡"
     type: hysteria2
-    server: 52.76.14.15
+    server: 3.0.132.241
     port: 8443
     password: GCTdedRS2kNM51FH
     sni: www.amazon.com
@@ -25,7 +25,7 @@ proxies:
 
   - name: "Hysteria2-台湾"
     type: hysteria2
-    server: 43.213.173.48
+    server: 43.213.137.230
     port: 8443
     password: MPDpqQGTNNkPKKd
     sni: www.amazon.com
